@@ -1,5 +1,8 @@
 # Azure VM Retirement & Upgrade Planner
 
+> **Moved:** active development now lives in [cjasset/AzureStuff - Azure VM Retirement & Upgrade Planner](https://github.com/cjasset/AzureStuff/tree/main/workbooks/azure-vm-retirement-upgrade-planner).
+> This fork is retained as a historical snapshot. The new location preserves the full source history, original MIT license and credit to [Krishna Sunkavalli](https://github.com/krishna-sunkavalli/vm-retirement-workbook). Use the new folder for current source, documentation and deployments.
+
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 A self-service Azure Monitor Workbook that inventories your VM fleet,
@@ -40,7 +43,7 @@ lookups/shared queries, supporting resource dependencies and remote active
 content are rejected. Build-time Python and repository reference files are
 authoring dependencies only; customers do not install them to use the workbook.
 
-[![Deploy to Azure](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fcjasset%2Fvm-retirement-workbook%2Fmain%2Fworkbook%2Fazuredeploy.json)
+[![Deploy to Azure](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fcjasset%2FAzureStuff%2Fmain%2Fworkbooks%2Fazure-vm-retirement-upgrade-planner%2Fworkbook%2Fazuredeploy.json)
 
 ## Fork policy: v5 first
 
@@ -657,7 +660,7 @@ artifact you can share, the Excel export per grid is the reliable path.
 
 ### Option A - Deploy to Azure (recommended)
 
-[![Deploy to Azure](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fcjasset%2Fvm-retirement-workbook%2Fmain%2Fworkbook%2Fazuredeploy.json)
+[![Deploy to Azure](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fcjasset%2FAzureStuff%2Fmain%2Fworkbooks%2Fazure-vm-retirement-upgrade-planner%2Fworkbook%2Fazuredeploy.json)
 
 Pick a subscription and resource group, then **Review + create**. The workbook
 appears under **Monitor → Workbooks**.
